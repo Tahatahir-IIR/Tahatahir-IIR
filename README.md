@@ -23,5 +23,5 @@ Open to internships and junior roles in data engineering, applied AI, and backen
 
 ## Contact
 
-- LinkedIn: [<!-- [add your LinkedIn URL ](https://www.linkedin.com/in/taha-tahir-611500256/)-->](https://www.linkedin.com/in/taha-tahir-611500256/)
-- Email: <!-- add your email -->
+- LinkedIn: https://www.linkedin.com/in/taha-tahir-611500256/
+- Email: Taha-tahir-2003@hotmail.com
