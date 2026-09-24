@@ -1,27 +1,27 @@
-# Hi, I'm Taha Tahir
+# Taha Tahir
 
-Data & AI engineering student (MIAGE) based in Morocco. I build systems that a real IT department could deploy:
-retrieval-augmented assistants, LLM agent pipelines, and data platforms, with a focus on French/Arabic business contexts and on **measuring** whether things work.
+Final-year computer engineering student at EMSI Casablanca (5th year, 2022–2027). I work on data pipelines, retrieval systems and applied machine learning, mostly for French and Arabic business contexts, and I try to measure whether things work before calling them done.
 
-Open to internships and junior roles in data engineering, applied AI, and backend development.
+Looking for a final-year (PFE) internship in data engineering, data science or applied AI, from February 2027, in Casablanca or Rabat.
 
-## Highlighted projects
+Portfolio: [taha-tahir-portfolio.vercel.app](https://taha-tahir-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/taha-tahir-611500256/) · taha-tahir-2003@hotmail.com
 
-| Project | What it is | Stack |
-|---|---|---|
-| [Enterprise RAG Knowledge Assistant](https://github.com/Tahatahir-IIR/Enterprise-RAG-Knowledge-Assistant) | Bilingual FR/AR document assistant with hybrid search (dense + BM25, RRF fusion), per-department access control, page-level citations, honest refusal when the answer is not in the documents, and a 40-question evaluation set to measure hallucination. | Python, FastAPI, Qdrant, Streamlit, Ollama, Docker, CI |
-| [S.O.P.H.I.A](https://github.com/Tahatahir-IIR/S.O.P.H.I.A) | Offline-first multi-agent voice assistant: LangGraph routes each query to a specialist agent (system commands, RAG researcher, math, writer), speaks with a cloned voice, and renders a lip-synced 3D desktop avatar. | Python, LangGraph, local LLMs, TTS/voice cloning, 3D avatar |
-| [Asterisk Call Logger](https://github.com/Tahatahir-IIR/AsteriskCallLogger) | Real-time ingestion, storage, search, and analytics for Asterisk call records, with role-based access for admins, supervisors, and employees. | Java 17, Spring Boot 3, Kafka, Spark, ClickHouse, Elasticsearch, MinIO, Airflow |
-| [E-commerce Market Intelligence Pipeline](https://github.com/Tahatahir-IIR/architecture-donnees-projet-nexus) | End-to-end data pipeline scraping Jumia and MarjaneMall into a Bronze/Silver/Gold data lake with a warehouse and real-time dashboards. | Python, Kafka, MinIO, PostgreSQL, Medallion architecture |
-| [Mooncraft](https://github.com/Tahatahir-IIR/Mooncraft) | Voxel game engine inspired by Minecraft, built from scratch as a graphics and performance playground. | C++ |
+## Selected projects
 
-## What I work with
+| Project | What it does | Result | Stack |
+|---|---|---|---|
+| [Telecom churn and revenue at risk](https://github.com/Tahatahir-IIR/telecom-churn-revenue) | Predicts which telecom customers churn next month and converts the probability into 12-month revenue at risk, with a scoring API and Power BI views. | Test ROC AUC 0.846, recall 0.70, calibrated (Brier 0.135); 874 high-risk customers carrying 741k of 3.1M revenue at risk | scikit-learn, pandas, FastAPI, PostgreSQL, Power BI, Docker, CI |
+| [Enterprise RAG Knowledge Assistant](https://github.com/Tahatahir-IIR/Enterprise-RAG-Knowledge-Assistant) | Bilingual FR/AR assistant over invoices, contracts and HR policies. Hybrid search (dense + BM25), access control per department, page citations, refuses when the answer is not in the documents. | 40-question eval: 0% hallucination, MRR 0.944, 100% correct refusals, 29 ms on cache hits | Python, FastAPI, Qdrant, Ollama, Streamlit, Docker, CI |
+| [Asterisk Call Logger](https://github.com/Tahatahir-IIR/AsteriskCallLogger) | Ingests call detail records from an Asterisk PBX into a streaming pipeline with search, analytics and role-based access. | 15-service Docker stack; replaces CSV-based CDR handling | Java, Spring Boot, Kafka, Spark, ClickHouse, Elasticsearch, MinIO, Airflow |
+| [E-commerce market intelligence pipeline](https://github.com/Tahatahir-IIR/architecture-donnees-projet-nexus) | Scrapes Moroccan e-commerce sites into a bronze/silver/gold data lake and a PostgreSQL warehouse with a price-comparison dashboard. | End-to-end medallion pipeline with Kafka and MinIO | Python, pandas, Kafka, MinIO, PostgreSQL, Streamlit, Airflow |
+| [S.O.P.H.I.A](https://github.com/Tahatahir-IIR/S.O.P.H.I.A) | Multi-agent voice assistant: LangGraph routes each request to a specialist agent (system commands, local RAG, maths, writing) and answers in a cloned voice through a 3D avatar. | Final-year capstone, local LLM reasoning with Ollama | Python, LangGraph, LlamaIndex, Ollama, TTS |
 
-- **Languages:** Python, Java, TypeScript/JavaScript, C/C++, SQL
-- **AI / data:** RAG, LLM agents (LangGraph), embeddings and vector search (Qdrant), evaluation of LLM outputs, Kafka, Spark, Airflow, ClickHouse, PostgreSQL, MinIO
-- **Backend / web:** FastAPI, Spring Boot, Next.js, React Native, Docker, GitHub Actions
+Other work: a voxel engine in C++ ([Mooncraft](https://github.com/Tahatahir-IIR/Mooncraft)), a networked JavaFX Pac-Man, a phone-company tycoon game, a MERN chat app, and the redesign of an internal web platform during a year at Wafasalaf.
 
-## Contact
+## Skills
 
-- LinkedIn: https://www.linkedin.com/in/taha-tahir-611500256/
-- Email: Taha-tahir-2003@hotmail.com
+- Languages: Python, SQL, Java, TypeScript, C/C++
+- Data and ML: pandas, scikit-learn, model evaluation and calibration, Power BI, Kafka, Spark, Airflow, ClickHouse, PostgreSQL, MinIO
+- LLM systems: RAG, hybrid search (Qdrant, BM25), LangGraph agents, evaluation of grounded answers, Ollama
+- Backend and tooling: FastAPI, Spring Boot, Next.js, Docker, GitHub Actions, Git
+- Spoken: Arabic, French, English
